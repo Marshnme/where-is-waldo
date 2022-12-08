@@ -1,20 +1,23 @@
 import Instructions from "./Home Components/Instructions"
 import ImageOverview from "./Home Components/ImageOverview"
 import HomeFooter from "./Home Components/HomeFooter"
+import '../stylesheets/css/home.css'
 
 const Home = () => {
     return (
-        <div>
-            <div>
-                <Instructions />
-            </div>
+        <>
+        <div className="home-container">
             <div>
                 <ImageOverview />
             </div>
             <div>
-                <HomeFooter />
+                <Instructions />
             </div>
         </div>
+        <footer>
+            <HomeFooter />
+        </footer>
+        </>
     )
 }
 
