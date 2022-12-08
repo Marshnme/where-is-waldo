@@ -1,8 +1,8 @@
-
+import '../stylesheets/css/nav.css'
 const Nav = () => {
     return (
         <div>
-            <h3>Wheres Wario</h3>      
+            <p>Wheres Wario</p>      
         </div>
     )
 }

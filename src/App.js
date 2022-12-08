@@ -7,7 +7,7 @@ import Nav from './components/Nav';
 
 function App() {
 	return (
-		<div>
+		<div className="app-container">
 			<nav>
 				<Nav />
 			</nav>
@@ -18,7 +18,6 @@ function App() {
 					<Route path="/scoreboard" element={<Scoreboard />}></Route>
 				</Routes>
 			</main>
-			<footer></footer>
 		</div>
 	);
 }
