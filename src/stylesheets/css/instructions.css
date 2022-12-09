@@ -1,0 +1,10 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.instructions li {
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=instructions.css.map */

@@ -10,8 +10,13 @@ const Home = () => {
             <div>
                 <ImageOverview />
             </div>
-            <div>
-                <Instructions />
+            <div className="instruc-container">
+                <div>
+                    <Instructions />
+                </div>
+                <div className="play-button-container">
+                    <button className="play-button">Play</button>
+                </div>
             </div>
         </div>
         <footer>
