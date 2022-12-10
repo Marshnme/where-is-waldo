@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
         <div className="home-container">
-            <div>
+            <div className="img-container">
                 <ImageOverview />  
             </div>
             <div className="instruc-container">
@@ -19,9 +19,9 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <footer>
-            <HomeFooter />
-        </footer>
+            <footer>
+                <HomeFooter />
+            </footer>
         </>
     )
 }
