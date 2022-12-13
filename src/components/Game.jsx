@@ -4,13 +4,17 @@ import '../stylesheets/css/game.css'
 import { useState } from "react"
 const Game = () => {
     const [toggleChoice, setToggleChoice] = useState(false)
+    const [toggleChoiceStyle, setToggleChoiceStyle] = useState('')
 
-    function makeChoice() {
+    function makeChoice(e) {
         if (toggleChoice === false) {
-            console.log("triggered false")
+            console.log(e);
+            setToggleChoiceStyle({
+                position: "absolute",left:`${e.clientX}px`,top:`${e.clientY}px`}
+            )
             return setToggleChoice(true)
         } else {
-            console.log("triggered true")
+            setToggleChoiceStyle()
             return setToggleChoice(false)
         }
     }
@@ -18,7 +22,7 @@ const Game = () => {
     return (
         <>
             <div className="game-container">
-               { toggleChoice ? <div className="choice-box"><p>choice box</p></div> : null }
+                {toggleChoice ? <div style={toggleChoiceStyle} className="choice-box"><p>choice box</p></div> : null }
                 <div className="img-container">
                     <ImageOverview makeChoice={makeChoice}></ImageOverview>
                 </div>
