@@ -6,7 +6,8 @@
 }
 
 .choice-box {
-  position: absolute;
+  height: 30%;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=game.css.map */
