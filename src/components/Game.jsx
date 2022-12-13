@@ -8,13 +8,11 @@ const Game = () => {
 
     function makeChoice(e) {
         if (toggleChoice === false) {
-            console.log(e);
             setToggleChoiceStyle({
                 position: "absolute",left:`${e.clientX}px`,top:`${e.clientY}px`}
             )
             return setToggleChoice(true)
         } else {
-            setToggleChoiceStyle()
             return setToggleChoice(false)
         }
     }
