@@ -5,5 +5,12 @@
 
 nav{
   height:10vh;
+  background-color: rgb(41, 41, 41);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 

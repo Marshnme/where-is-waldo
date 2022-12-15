@@ -1,7 +1,7 @@
 
 const HomeFooter = () => {
     return (
-        <h1>HomeFooter</h1>
+        <p>Created by Joshua Holtsclaw</p>
     )
 }
 

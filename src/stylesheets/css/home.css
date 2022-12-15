@@ -1,5 +1,5 @@
 .home-container {
-  background-color: gray;
+  background-color: rgb(156, 154, 154);
   height: 80vh;
   display: grid;
   grid-template-columns: 60% 40%;
@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .instruc-container {
@@ -31,6 +32,11 @@
 
 footer {
   height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 41, 41);
+  color: white;
 }
 
 /*# sourceMappingURL=home.css.map */
