@@ -20,7 +20,11 @@ const Game = () => {
     return (
         <>
             <div className="game-container">
-                {toggleChoice ? <div style={toggleChoiceStyle} className="choice-box"><p>choice box</p></div> : null }
+                {toggleChoice ? <div style={toggleChoiceStyle} className="choice-box">
+                    <p>choice #1</p>
+                    <p>choice #2</p>
+                    <p>choice #3</p>
+                </div> : null}
                 <div className="img-container">
                     <ImageOverview makeChoice={makeChoice}></ImageOverview>
                 </div>

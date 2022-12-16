@@ -8,10 +8,25 @@
 }
 
 .choice-box{
-    height: 30%;
-    width: 10%;
+    height: 20%;
     border: 1px solid black;
+    border-radius: 5px;
+
+    background-color: rgb(211, 216, 216);
+
+    padding: 1rem;
+    margin:5px 0 0 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+    p:hover{
+        background-color: rgb(196, 202, 202);
+        cursor: pointer;
+    }
 }
+
 
 .img-container{
     // height: 100%;
