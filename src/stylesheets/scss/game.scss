@@ -20,12 +20,13 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
+
+    p:hover{
+        background-color: rgb(196, 202, 202);
+        cursor: pointer;
+    }
 }
 
-.choice-box p:hover{
-    background-color: rgb(196, 202, 202);
-    cursor: pointer;
-}
 
 .img-container{
     // height: 100%;
